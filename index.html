@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="An independent editorial microsite dedicated to Polestar electric performance cars.">
+  <title>Polestar | Electric Performance Edit</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" aria-label="Primary">
+    <a class="brand-mark" href="#top" aria-label="Polestar home">
+      <span class="star" aria-hidden="true"></span>
+      <span>Polestar</span>
+    </a>
+    <nav class="nav-links" aria-label="Site sections">
+      <a href="#line">Line</a>
+      <a href="#brief">Brief</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#sources">Sources</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="Polestar hero">
+      <img src="assets/images/polestar-4-hero.jpeg" alt="Polestar 4 driving through Oxford" class="hero-image">
+      <div class="hero-scrim"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Swedish electric performance</p>
+        <h1>Polestar</h1>
+        <p class="hero-copy">Minimal by instinct. Fast by engineering. Built around the idea that an electric car can feel calm before it feels quick.</p>
+        <div class="hero-actions" aria-label="Primary actions">
+          <a class="button button-light" href="#line">Explore the line</a>
+          <a class="button button-ghost" href="https://www.polestar.com/us/" target="_blank" rel="noreferrer">Official site</a>
+        </div>
+      </div>
+      <aside class="hero-stat" aria-label="Polestar 4 highlight">
+        <span>Polestar 4</span>
+        <strong>310 mi</strong>
+        <small>EPA range up to</small>
+      </aside>
+    </section>
+
+    <section class="intro-band" aria-label="Brand position">
+      <p>Polestar sits at a clean intersection: Scandinavian restraint, electric torque, transparent sourcing, and design that avoids noise.</p>
+      <div class="intro-metrics" aria-label="Brand highlights">
+        <span><strong>3.7 sec</strong> Polestar 4 0-60 mph</span>
+        <span><strong>800V</strong> Polestar 3 architecture</span>
+        <span><strong>100%</strong> electric focus</span>
+      </div>
+    </section>
+
+    <section class="section section-line" id="line" aria-labelledby="line-title">
+      <div class="section-heading">
+        <p class="eyebrow">The line</p>
+        <h2 id="line-title">Three silhouettes. One visual logic.</h2>
+      </div>
+
+      <div class="model-grid">
+        <article class="model-card">
+          <img src="assets/images/polestar-2-front.jpeg" alt="Polestar 2 front view">
+          <div class="model-copy">
+            <span class="model-number">02</span>
+            <h3>Polestar 2</h3>
+            <p>The electric performance fastback: compact, road-focused, and tuned around everyday precision.</p>
+            <dl>
+              <div>
+                <dt>Body</dt>
+                <dd>Fastback</dd>
+              </div>
+              <div>
+                <dt>Role</dt>
+                <dd>Driver's daily</dd>
+              </div>
+            </dl>
+          </div>
+        </article>
+
+        <article class="model-card model-card-feature">
+          <img src="assets/images/polestar-3-front.jpeg" alt="Polestar 3 front view">
+          <div class="model-copy">
+            <span class="model-number">03</span>
+            <h3>Polestar 3</h3>
+            <p>A performance SUV with a quieter kind of presence: broad stance, smart sensing, and up to 517 hp.</p>
+            <dl>
+              <div>
+                <dt>0-60 mph</dt>
+                <dd>4.5 sec</dd>
+              </div>
+              <div>
+                <dt>Power</dt>
+                <dd>517 hp</dd>
+              </div>
+            </dl>
+          </div>
+        </article>
+
+        <article class="model-card">
+          <img src="assets/images/polestar-4-street.jpeg" alt="Polestar 4 driving on a city street">
+          <div class="model-copy">
+            <span class="model-number">04</span>
+            <h3>Polestar 4</h3>
+            <p>Coupe aerodynamics with SUV space, shaped around a rear camera view and a long glass roof.</p>
+            <dl>
+              <div>
+                <dt>0-60 mph</dt>
+                <dd>3.7 sec</dd>
+              </div>
+              <div>
+                <dt>Power</dt>
+                <dd>544 hp</dd>
+              </div>
+            </dl>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="design-story" aria-label="Design story">
+      <div class="story-image">
+        <img src="assets/images/polestar-4-portrait.jpeg" alt="Polestar 4 parked in Oxford">
+      </div>
+      <div class="story-copy">
+        <p class="eyebrow">Design code</p>
+        <h2>Take away the grille. Keep the intent.</h2>
+        <p>Polestar's surfaces read like edited architecture: low ornament, tight proportion, light signatures that do the branding without shouting.</p>
+        <div class="material-row" aria-label="Design principles">
+          <span>Surface</span>
+          <span>Light</span>
+          <span>Air</span>
+          <span>Torque</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section brief-section" id="brief" aria-labelledby="brief-title">
+      <div class="section-heading">
+        <p class="eyebrow">Drive brief</p>
+        <h2 id="brief-title">Pick the mood. The machine keeps its composure.</h2>
+      </div>
+
+      <div class="brief-shell">
+        <div class="brief-panel" aria-live="polite">
+          <div class="mode-tabs" role="tablist" aria-label="Driving focus">
+            <button class="mode-tab is-active" type="button" role="tab" aria-selected="true" data-mode="clarity">Clarity</button>
+            <button class="mode-tab" type="button" role="tab" aria-selected="false" data-mode="distance">Distance</button>
+            <button class="mode-tab" type="button" role="tab" aria-selected="false" data-mode="force">Force</button>
+          </div>
+          <h3 id="brief-mode-title">Clarity in motion</h3>
+          <p id="brief-mode-copy">Quiet proportions, a low command center, and immediate response make the car feel deliberate before it feels dramatic.</p>
+          <div class="brief-readout">
+            <span>
+              <strong id="brief-stat-a">04</strong>
+              <small>featured model</small>
+            </span>
+            <span>
+              <strong id="brief-stat-b">310 mi</strong>
+              <small>range focus</small>
+            </span>
+          </div>
+        </div>
+        <div class="brief-media">
+          <img id="brief-image" src="assets/images/polestar-4-detail-a.jpeg" alt="Polestar 4 detail in Oxford">
+        </div>
+      </div>
+    </section>
+
+    <section class="performance-band" aria-label="Performance figures">
+      <div>
+        <span>Polestar 4 Dual motor</span>
+        <strong>400 kW / 544 hp</strong>
+      </div>
+      <div>
+        <span>Polestar 3 Performance pack</span>
+        <strong>4.5 sec 0-60</strong>
+      </div>
+      <div>
+        <span>Polestar 4 Rear motor</span>
+        <strong>310 mi EPA</strong>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery" aria-labelledby="gallery-title">
+      <div class="section-heading">
+        <p class="eyebrow">Official media</p>
+        <h2 id="gallery-title">Real Polestar photography, not stock gloss.</h2>
+      </div>
+      <div class="gallery-grid">
+        <figure class="gallery-item gallery-wide">
+          <img src="assets/images/polestar-3-800v.jpeg" alt="Polestar 3 with 800V architecture">
+          <figcaption>Polestar 3 with 800V architecture</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="assets/images/polestar-4-detail-a.jpeg" alt="Polestar 4 parked at a curb">
+          <figcaption>Polestar 4 in Oxford</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="assets/images/polestar-4-detail-b.jpeg" alt="Polestar 4 rear three-quarter view">
+          <figcaption>Polestar 4 in Oxford</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="sources">
+    <div>
+      <a class="brand-mark footer-brand" href="#top" aria-label="Back to top">
+        <span class="star" aria-hidden="true"></span>
+        <span>Polestar</span>
+      </a>
+      <p>Independent editorial build. Not affiliated with or endorsed by Polestar.</p>
+    </div>
+    <div class="source-links" aria-label="Sources">
+      <a href="https://media.polestar.com/gallery/images?lang=en_US" target="_blank" rel="noreferrer">Polestar media imagery</a>
+      <a href="https://www.polestar.com/us/polestar-4-models/polestar-4-coupe/specifications/" target="_blank" rel="noreferrer">Polestar 4 specs</a>
+      <a href="https://www.polestar.com/us/polestar-3/performance/" target="_blank" rel="noreferrer">Polestar 3 performance</a>
+      <a href="https://www.polestar.com/us/polestar-2/" target="_blank" rel="noreferrer">Polestar 2 page</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
